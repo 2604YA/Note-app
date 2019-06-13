@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Word:</strong>
+  <%= @memo.word %>
+</p>
+
+<p>
+  <strong>Class:</strong>
+  <%= @memo.class %>
+</p>
+
+<p>
+  <strong>Definition:</strong>
+  <%= @memo.definition %>
+</p>
+
+<p>
+  <strong>Example:</strong>
+  <%= @memo.example %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @memo.description %>
+</p>
+
+<%= link_to 'Edit', edit_memo_path(@memo) %> |
+<%= link_to 'Back', memos_path %>
