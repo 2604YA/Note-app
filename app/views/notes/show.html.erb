@@ -1,0 +1,7 @@
+<h1>Showing selected article</h1>
+
+<p>Title: <%= @note.title %></p>
+<p>Description: <%= @note.description %></p>
+
+<%= link_to 'Edit', edit_note_path(@note) %> |
+<%= link_to 'Back', notes_path %>
